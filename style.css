@@ -21,6 +21,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -73,3 +78,16 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+#search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+#game-search {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+    border: 1px solid #ccc;
+  }
+  
